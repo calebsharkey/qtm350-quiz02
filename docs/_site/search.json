@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Quiz2",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The Gapminder dataset contains contains information about life expectancy, population, and GDP per capita in 142 countries over the years 1952 to 2007, with a 5-year interval.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "country.html",
