@@ -1,0 +1,22 @@
+---
+title: "Quiz2"
+text: The Gapminder dataset contains contains information about life expectancy, population, and GDP per capita in 142 countries over the years 1952 to 2007, with a 5-year interval.
+
+website:
+  title: "Quiz 2"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: life-population.qmd
+        text: Life Expectancy and Population
+      - href: life-gdp.qmd
+        text: Life Expectancy and GDP per Capita
+      - href: country.qmd
+        text: Country Analysis
+      - about.qmd
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

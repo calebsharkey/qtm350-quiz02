@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Quiz 2"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: life_vs_pop.qmd
+        text: Analyzing Life Expectancy vs. Population
+      - href: life_gdp_pc.qmd
+        text: Graph for Life Expectancy & GDP per capita
+      - href: argentina_analyze.qmd
+        text: Argentina's Life Expectancy, GDP, and Population
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+render:
+  output-dir: docs 
+

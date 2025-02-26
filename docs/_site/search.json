@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "life-population.html",
+    "href": "life-population.html",
+    "title": "Life Expectancy and Population",
+    "section": "",
+    "text": "Life Expectancy and Population\nThis page analyzes the relationship between Life Expectancy and Population using the Gapminder dataset.\n\n# Load necessary libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\n\n# Load the Gapminder dataset\ndata_path = \"/Users/calebsharkey/Documents/School/qtm350/qtm350-quiz02/gapminder.csv\"\ngapminder = pd.read_csv(data_path)\n\n# Plot Life Expectancy vs. Population\nplt.figure(figsize=(10,6))\nsns.scatterplot(data=gapminder, x=\"population_millions\", y=\"life_expectancy\")\nplt.xscale(\"log\") \nplt.xlabel(\"Population (using log scale)\")\nplt.ylabel(\"Life Expectancy (years)\")\nplt.title(\"Life Expectancy vs. Population\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quiz2",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "country.html",
+    "href": "country.html",
+    "title": "Country Analysis",
+    "section": "",
+    "text": "Country Analysis: Argentina\nThis page analyzes changes in life expectancy, GDP per capita, and population for the country of Argentina over time.\n\n# Load necessary libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\n\n# Load the Gapminder dataset\ndata_path = \"/Users/calebsharkey/Documents/School/qtm350/qtm350-quiz02/gapminder.csv\"\ngapminder = pd.read_csv(data_path)\n\n# Plot Life Expectancy vs. Time\nplt.figure(figsize=(10,6))\nsns.scatterplot(data=gapminder, x=\"year\", y=\"life_expectancy\")\nplt.xlabel(\"Time (years)\")\nplt.ylabel(\"Life Expectancy (years)\")\nplt.title(\"Life Expectancy vs. Time\")\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\ndata_path = \"/Users/calebsharkey/Documents/School/qtm350/qtm350-quiz02/gapminder.csv\"\ngapminder = pd.read_csv(data_path)\n\n# GDP per capita vs. Time\nplt.figure(figsize=(10,6))\nsns.scatterplot(data=gapminder, x=\"year\", y=\"gdp_per_capita\")\nplt.yscale(\"log\")\nplt.xlabel(\"Time (years)\")\nplt.ylabel(\"GDP per capita \")\nplt.title(\"GDP per capita vs. Time\")\nplt.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\ndata_path = \"/Users/calebsharkey/Documents/School/qtm350/qtm350-quiz02/gapminder.csv\"\ngapminder = pd.read_csv(data_path)\n\n# Population vs. Time\nplt.figure(figsize=(10,6))\nsns.scatterplot(data=gapminder, x=\"year\", y=\"population_millions\")\nplt.yscale(\"log\")\nplt.xlabel(\"Time (years)\")\nplt.ylabel(\"Population (millions)\")\nplt.title(\"Population vs. Time\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "life-gdp.html",
+    "href": "life-gdp.html",
+    "title": "Life Expectancy and GDP per capita",
+    "section": "",
+    "text": "Life Expectancy and GDP per Capita\nThis page analyzes the relationship between Life Expectancy and GDP per capita using the Gapminder dataset.\n\n# Load necessary libraries\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\n# Load the Gapminder dataset\ndata_path = \"/Users/calebsharkey/Documents/School/qtm350/qtm350-quiz02/gapminder.csv\"\ngapminder = pd.read_csv(data_path)\n\n# Plot Life Expectancy vs. GDP per Capita\nplt.figure(figsize=(10,6))\nsns.scatterplot(data=gapminder, x=\"gdp_per_capita\", y=\"life_expectancy\")\nplt.xscale(\"log\")\nplt.xlabel(\"GDP per Capita (log scale)\")\nplt.ylabel(\"Life Expectancy (years)\")\nplt.title(\"Life Expectancy vs. GDP per Capita\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
