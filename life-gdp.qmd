@@ -1,5 +1,6 @@
 ---
 title: Life Expectancy and GDP per capita
+format: html
 echo: true
 ---
 

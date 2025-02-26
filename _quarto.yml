@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs 
   
 
 website:
@@ -25,6 +26,5 @@ format:
     css: styles.css
     toc: true
 
-render:
-  output-dir: docs 
+  
 

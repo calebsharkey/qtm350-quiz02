@@ -1,5 +1,6 @@
 ---
 title: "Country Analysis"
+format: html
 echo: TRUE
 ---
 

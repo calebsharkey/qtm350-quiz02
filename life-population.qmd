@@ -1,5 +1,6 @@
 ---
 title: "Life Expectancy and Population"
+format: html
 echo: TRUE
 ---
 

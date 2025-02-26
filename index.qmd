@@ -1,6 +1,6 @@
 ---
 title: "Quiz2"
-
+format: html
 
 website:
   title: "Quiz 2"
